@@ -1,0 +1,58 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ToDoApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#C8B6E2</item>
+        <item name="colorPrimaryVariant">#C8B6E2</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="android:fontFamily">@font/comfortaa</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#C8B6E2</item>
+        <item name="colorSecondaryVariant">#C8B6E2</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor"
+            tools:targetApi="l">?attr/colorPrimaryVariant
+        </item>
+
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    
+    <style name="Theme1" parent= "Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary"> #FAD9E6</item>
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorOnPrimary">@android:color/black</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor" tools:targetApi ="l">?attr/colorPrimary</item>
+
+    </style>
+    <style name="Theme2" parent= "Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary"> #D6EFED</item>
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorOnPrimary">@android:color/black</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor" tools:targetApi ="l">?attr/colorPrimary</item>
+
+    </style>
+    <style name="Theme3" parent= "Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary"> #C8B6E2</item>
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorOnPrimary">@android:color/black</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor" tools:targetApi ="l">?attr/colorPrimary</item>
+
+    </style>
+    <style name="Theme4" parent= "Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary"> #FFFBE7</item>
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorOnPrimary">@android:color/black</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor" tools:targetApi ="l">?attr/colorPrimary</item>
+
+    </style>
+
+</resources>
